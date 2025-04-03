@@ -1,0 +1,13 @@
+train: /home/oomo3069/yolotrain/dataset/car_detection/train/images
+val: /home/oomo3069/yolotrain/dataset/car_detection/valid/images
+test: /home/oomo3069/yolotrain/dataset/car_detection/test/images
+
+nc: 1
+names: ['car']
+
+roboflow:
+  workspace: thworkspace
+  project: car-detection-isouk
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/thworkspace/car-detection-isouk/dataset/1
